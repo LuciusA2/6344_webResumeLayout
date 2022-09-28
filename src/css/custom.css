@@ -1,0 +1,37 @@
+main{
+    background-color: bisque;
+    height: 400px;
+}
+header{
+    background-color: lightcoral;
+    overflow: hidden;
+}
+#menu{
+    background-color: burlywood;
+    width: 400px;
+    float: right;
+}
+#logo{
+    background-color: crimson;
+    width: 50px;
+}
+#slide{
+    background-color: darksalmon;
+    height: 100px;
+}
+#content{
+    background-color: lightcoral;
+    height: 100px;
+}
+.subcontent{
+    background-color: aquamarine;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0%;
+}
+li{
+    float: left;
+    margin: 5px;
+}
