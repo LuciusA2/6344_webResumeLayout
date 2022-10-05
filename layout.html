@@ -7,10 +7,33 @@
     <title>My Resume</title>
     <link rel="stylesheet" href="src/css/custom.css">
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
+
+/*    @font-face {
+        font-family: "Bangna";
+        src: url('src/font/bangna-new.ttf'),
+             url('src/font/bangna-new.eot');
+
+    }
+*/
+   *{            
+        font-family: "Bangna";
+        /* font-weight: bold;  */
+        /* font-style: italic; */
+        font-family: 'Athiti', sans-serif;
+        font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    }
+    
+</style>
+
 <body>
     <main>
         <header>
-            <div id="logo">LOGO</div>
+            <div id="logo"><img src="src/images/people.jpg" alt="" width ="40px" height="40px" 
+            style="border-radius: 50px; margin-left: 10px; margin-top: 5px;"></div>
+            <div id="logo"></div>
             <div id="menu">
                 <ul>
                     <li><a href="#">HOME</a></li>
@@ -22,12 +45,27 @@
                 </ul>
             </div>
         </header>
-        <div id="slide"><img src="src/images/banner.jpg" alt="width 100px">
+        <div id="slide"><img src="src/images/banner.jpg" alt=""width ="100%">
         </div>
         <div id="content">
-        <div class="subcontent">subcontent1</div>
-        <div class="subcontent">subcontent2</div>
-        <div class="subcontent">subcontent3</div>
+        <div class="subcontent">
+            <h1 style="text-align: center;">About Me</h1>
+            <h3>ชื่อสกุล : ปณิสรา แก้วสะอาด</h3>
+            <p>Name Panisara Kaewsa-ard</p>
+            <p>NickName Atom</p>
+            <p>Phone 091-2345678</p>
+        </div>
+        <div class="subcontent">
+            <h1 style="text-align: center;">Education</h1>
+            <p>Udom wittaya School</p>
+            <p>Narivooth School</p>
+            <p>Nakhonpathom Vocational College</p>
+        </div>
+        <div class="subcontent">
+            <h1 style="text-align: center;">Computer Skill</h1>
+            <p>1.Adobe XD</p>
+            <p>2.canva</p>
+            <p>3.Microsoft Word</p>
         </div>
     </main>
 </body>

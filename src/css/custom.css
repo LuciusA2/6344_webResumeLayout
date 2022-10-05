@@ -1,30 +1,46 @@
 main{
     background-color: bisque;
-    height: 400px;
+    height: 720px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 header{
     background-color: lightcoral;
     overflow: hidden;
 }
+body{
+    background-image: linear-gradient(to bottom, #f0d5b7, #f2cbb0, #f4c0ac, #f4b6aa, #f2acac);
+}
 #menu{
-    background-color: burlywood;
-    width: 400px;
+    /*background-color: burlywood;*/
+    width: 500px;
     float: right;
 }
 #logo{
-    background-color: crimson;
+    /*background-color: crimson;*/
     width: 50px;
+    float: left;
+    border-radius: 50%;
 }
 #slide{
     background-color: darksalmon;
-    height: 100px;
+    overflow: hidden;
 }
 #content{
     background-color: lightcoral;
-    height: 100px;
+    margin-left: 30px;
+    margin-right: auto;
 }
 .subcontent{
     background-color: aquamarine;
+    float: left;
+    margin: 12px;
+    width: 285px;
+    height: 330px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 2px;
+    padding: 5px;
 }
 ul{
     list-style: none;
